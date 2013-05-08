@@ -1,6 +1,6 @@
-# Cinch::Simplecalc
+# Cinch::Plugins::SimpleCalc
 
-TODO: Write a gem description
+Cinch plugin to allow channel users to do basic math
 
 ## Installation
 
@@ -18,7 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just add the plugin to your list:
+
+    @bot = Cinch::Bot.new do
+      configure do |c|
+        c.plugins.plugins = [Cinch::Plugins::SimpleCalc]
+      end
+    end
+
+Then in channel use:
+
+    .math 2 + 3
+
+    .math 4 ** 4
 
 ## Contributing
 
