@@ -32,6 +32,11 @@ Then in channel use:
 
     .math 4 ** 4
 
+Note: this will only do BASIC math, and will strip all letters or complex
+characters. If you want something more complex please see my other gem:
+
+https://github.com/canonical-hackers/cinch-calculate
+
 ## Contributing
 
 1. Fork it
