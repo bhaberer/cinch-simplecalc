@@ -1,7 +1,2 @@
-require "cinch-simplecalc/version"
-
-module Cinch
-  module Simplecalc
-    # Your code goes here...
-  end
-end
+require 'cinch/plugins/simplecalc/version'
+require 'cinch/plugins/simplecalc/simplecalc'
