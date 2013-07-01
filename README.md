@@ -1,5 +1,11 @@
 # Cinch::Plugins::SimpleCalc
 
+[![Gem Version](https://badge.fury.io/rb/cinch-simplecalc.png)](http://badge.fury.io/rb/cinch-simplecalc)
+[![Dependency Status](https://gemnasium.com/bhaberer/cinch-simplecalc.png)](https://gemnasium.com/bhaberer/cinch-simplecalc)
+[![Build Status](https://travis-ci.org/bhaberer/cinch-simplecalc.png?branch=master)](https://travis-ci.org/bhaberer/cinch-simplecalc)
+[![Coverage Status](https://coveralls.io/repos/bhaberer/cinch-simplecalc/badge.png?branch=master)](https://coveralls.io/r/bhaberer/cinch-simplecalc?branch=master)
+[![Code Climate](https://codeclimate.com/github/bhaberer/cinch-simplecalc.png)](https://codeclimate.com/github/bhaberer/cinch-simplecalc)
+
 Cinch plugin to allow channel users to do basic math
 
 ## Installation
