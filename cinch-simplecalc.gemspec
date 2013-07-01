@@ -24,4 +24,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'cinch',           '~> 2.0.5'
   gem.add_dependency 'cinch-toolbox',   '~> 1.0.0'
   gem.add_dependency 'cinch-cooldown',  '~> 1.0.0'
+  gem.add_dependency 'calc',            '~> 1.0.0'
 end
