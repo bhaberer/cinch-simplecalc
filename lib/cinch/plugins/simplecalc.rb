@@ -1,14 +1,16 @@
+# -*- encoding : utf-8 -*-
 require 'calc'
 require 'cinch'
-require 'cinch-cooldown'
+require 'cinch/cooldown'
 
 module Cinch::Plugins
+  # Simple Plugin to do quick math
   class SimpleCalc
     include Cinch::Plugin
 
     enforce_cooldown
 
-    self.help = "Use .math <problem> to do math. (i.e. .math 2 + 2)"
+    self.help = 'Use .math <problem> to do math. (i.e. .math 2 + 2)'
 
     match /math (.+)/
 
@@ -20,9 +22,10 @@ module Cinch::Plugins
 
     def calc(problem)
       answer = Calc.evaluate(problem)
-      return "#{Calc.evaluate(problem)}" unless answer == problem
+      answer unless answer == problem
     rescue ZeroDivisionError
-      return "Fuck you."
+      # Rescue against people being cute.
+      "I'm sorry, Dave, I'm afraid I can't do that."
     end
   end
 end
